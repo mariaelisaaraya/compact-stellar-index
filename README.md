@@ -1,3 +1,8 @@
+
+The experiment is documented in the repo. The story is in the podcast.
+
+Escuchar el episodio en [Spotify](https://open.spotify.com/episode/048Ruu7zptvXpDUuCNAhQk?si=Sv1FlADFRiO8DGL1KgHQtA)
+
 # Compact Stellar Historical Index — V0
 
 > Not an indexer. The compact file for the lake.
