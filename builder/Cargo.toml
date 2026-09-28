@@ -1,0 +1,12 @@
+[package]
+name = "builder"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.104"
+format = { path = "../format" }
+hex.workspace = true
+postgres = "0.19.14"
+serde_json.workspace = true
+sha2.workspace = true

@@ -1,0 +1,23 @@
+{
+  "account_count": 1312596,
+  "canonical_dataset_hash": "sha256:b51577aa57e579c52a70f200bbe0366156db1c990467fb3ce7a7fee4a35e6e62",
+  "hybrid": {
+    "build_seconds": 0.10422025,
+    "bytes": 97226216,
+    "encoding": "raw_if_len1_else_ef"
+  },
+  "ledger_end": 64653374,
+  "ledger_start": 64648375,
+  "postgres": {
+    "copy_seconds": 3.722458375,
+    "create_index_seconds": 5.319881333,
+    "pg_total_relation_size_bytes": 431243264,
+    "schema": "CREATE TABLE account_ledgers (account bytea NOT NULL, ledger integer NOT NULL); CREATE INDEX ON account_ledgers (account, ledger);",
+    "total_build_seconds": 9.348365416,
+    "vacuum_analyze_seconds": 0.306025708
+  },
+  "raw": {
+    "build_seconds": 0.052107375,
+    "bytes": 84829648
+  }
+}

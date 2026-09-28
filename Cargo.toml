@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = ["extractor", "format", "builder", "benchmark"]
+
+[workspace.dependencies]
+sha2 = "0.11"
+hex = "0.4"
+serde_json = "1"
+rayon = "1.12"

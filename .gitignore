@@ -1,0 +1,5 @@
+/target
+/data/raw/
+/data/out/*.bin
+
+# Cargo.lock se versiona a proposito (binarios de aplicacion, no libreria)

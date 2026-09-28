@@ -1,0 +1,14 @@
+{
+  "account_count": 1312596,
+  "definition_of_appearance": "v1-broad-classic",
+  "ledger_count": 5000,
+  "ledger_end": 64653374,
+  "ledger_start": 64648375,
+  "pair_count": 3384425,
+  "posting_list_len_max": 4996,
+  "posting_list_len_median": 1,
+  "posting_list_len_p95": 1,
+  "tuples_bytes": 121839300,
+  "tuples_hash": "sha256:b51577aa57e579c52a70f200bbe0366156db1c990467fb3ce7a7fee4a35e6e62",
+  "window_id": "w3_recent"
+}

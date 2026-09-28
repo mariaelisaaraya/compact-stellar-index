@@ -1,0 +1,8 @@
+Index Only Scan using account_ledgers_account_ledger_idx on account_ledgers  (cost=0.56..228.49 rows=4625 width=4) (actual time=0.967..2.404 rows=4996 loops=1)
+  Index Cond: (account = '\x765807e9c437f7d70bd8c9fcdb0c80877c96015835b39d2ec036c438e292e7b0'::bytea)
+  Heap Fetches: 0
+  Buffers: shared hit=1 read=40
+Planning:
+  Buffers: shared hit=111
+Planning Time: 4.584 ms
+Execution Time: 3.276 ms

@@ -1,0 +1,103 @@
+{
+  "cold_compact_point": {
+    "n": 2000,
+    "p50_us": 0.083,
+    "p95_us": 351.29200000000003
+  },
+  "cold_compact_range": {
+    "n": 2000,
+    "p50_us": 0.083,
+    "p95_us": 0.20800000000000002
+  },
+  "cold_postgres_point": {
+    "n": 2000,
+    "p50_us": 26.875,
+    "p95_us": 338.708
+  },
+  "cold_postgres_range": {
+    "n": 2000,
+    "p50_us": 27.416999999999998,
+    "p95_us": 76.792
+  },
+  "cold_raw_point": {
+    "n": 2000,
+    "p50_us": 0.083,
+    "p95_us": 423.125
+  },
+  "cold_raw_range": {
+    "n": 2000,
+    "p50_us": 0.083,
+    "p95_us": 0.20800000000000002
+  },
+  "hot_compact_point": {
+    "n": 1000,
+    "p50_us": 6.5,
+    "p95_us": 406.084
+  },
+  "hot_compact_range": {
+    "n": 1000,
+    "p50_us": 4.333,
+    "p95_us": 5.208
+  },
+  "hot_postgres_point": {
+    "n": 1000,
+    "p50_us": 476.5,
+    "p95_us": 1466.1660000000002
+  },
+  "hot_postgres_range": {
+    "n": 1000,
+    "p50_us": 263.04200000000003,
+    "p95_us": 662.4590000000001
+  },
+  "hot_raw_point": {
+    "n": 1000,
+    "p50_us": 2.417,
+    "p95_us": 510.541
+  },
+  "hot_raw_range": {
+    "n": 1000,
+    "p50_us": 3.958,
+    "p95_us": 5.5840000000000005
+  },
+  "reps_per_account": 10,
+  "sample_sizes": {
+    "cold": 200,
+    "hot": 100,
+    "warm": 50
+  },
+  "universe_sizes": {
+    "cold": 1261301,
+    "hot": 10863,
+    "warm": 40432
+  },
+  "warm_compact_point": {
+    "n": 500,
+    "p50_us": 1.083,
+    "p95_us": 242.875
+  },
+  "warm_compact_range": {
+    "n": 500,
+    "p50_us": 1.0839999999999999,
+    "p95_us": 1.333
+  },
+  "warm_postgres_point": {
+    "n": 500,
+    "p50_us": 26.166,
+    "p95_us": 180.708
+  },
+  "warm_postgres_range": {
+    "n": 500,
+    "p50_us": 25.625,
+    "p95_us": 31.75
+  },
+  "warm_raw_point": {
+    "n": 500,
+    "p50_us": 0.083,
+    "p95_us": 193.042
+  },
+  "warm_raw_range": {
+    "n": 500,
+    "p50_us": 0.083,
+    "p95_us": 0.20800000000000002
+  }
+}
